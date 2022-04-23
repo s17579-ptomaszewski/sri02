@@ -6,9 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import s17579.demo.sri02.model.emp.Employee;
-import s17579.demo.sri02.model.emp.EmployeeDto;
-import s17579.demo.sri02.model.emp.EmployeeRepository;
+import s17579.demo.sri02.model.Employee;
+import s17579.demo.sri02.dto.EmployeeDto;
+import s17579.demo.sri02.repo.EmployeeRepository;
 
 import java.net.URI;
 import java.util.Collection;
